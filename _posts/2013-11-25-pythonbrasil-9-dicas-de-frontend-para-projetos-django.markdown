@@ -2,7 +2,7 @@
 layout: post
 title:  "PythonBrasil[9]: Dicas de frontend para projetos django"
 date:   2013-11-24 13:37:14
-categories: python, pythonbrasil9, palestra
+categories: python pythonbrasil9 palestra
 ---
 
 Nos dias 2, 3 e 4 de outubro tive a oportunidade de mais uma vez participar da PythonBrasil, dessa vez pude contribuir um pouco mais com a comunidade apresentando uma palestra no último dia de evento.
