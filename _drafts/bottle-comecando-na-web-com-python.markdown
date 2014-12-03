@@ -6,7 +6,7 @@ categories: python bottle
 
 Trabalho com web há alguns anos, passei rapidamente por PHP e logo em seguida comecei a trabalhar com python e por consequência com Django. O início foi bem doloroso, não sei se todos tem a mesma impressão, mas acredito que python(para a web) tem uma curva de aprendizado muito grande se comparado ao PHP(que ainda é a grande porta de entrada da web), são muitas coisas a aprender para colocar um simples projeto em python no ar  enquanto em PHP tudo que se precisa fazer é "escrever um arquivinho e jogar no ftp".
 
-Então, mesmo com todas as facilidades e vasta documentação, ainda assim desenvolver para web com python é um troço meio complicado(para um iniciante). Pensando nisso resolvi escrever uma série de artigos para ajudar iniciantes em desenvolvimento web a darem os primeiros passos utilizando python. Vamos lá?
+Pensando nisso resolvi escrever uma série de artigos para ajudar iniciantes em desenvolvimento web a darem os primeiros passos utilizando python. Vamos lá?
 
 ## Requisitos
 
