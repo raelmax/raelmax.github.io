@@ -28,7 +28,9 @@ Com isso você já estará pronto para desenvolver seu projeto em python, utiliz
 
 ## Hello World
 
-Com o Bottle "instalado" no passo anterior, vamos agora escrever nossa primeira aplicação web, será um exemplo clássico de "Hello World!". Para isso, crie um arquivo "app.py" no diretório "meu_projeto". Abra o arquivo com seu editor de código preferido e escreva o seguinte:
+Com o Bottle "instalado" no passo anterior, vamos agora escrever nossa primeira aplicação web, será um exemplo clássico de "Hello World!". Para isso, crie um arquivo "app.py" no diretório "meu_projeto".
+
+Abra o arquivo com seu editor de código preferido e digite o seguinte:
 
 {% highlight python linenos %}
 from bottle import route, run
