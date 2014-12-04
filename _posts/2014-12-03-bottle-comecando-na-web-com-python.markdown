@@ -75,5 +75,6 @@ Dúvidas, críticas e sugestões nos comentários! :)
 
 - [Python para Zumbis (curso online de python)](http://pycursos.com/python-para-zumbis/)
 - [Bottle - Site Oficial](http://bottlepy.org)
+- [Bottle - Fullstack without Django](http://www.avelino.xxx/2014/12/bottle-full-stack-without-django)
 - [Bottle - Fontes de Estudo](https://ericstk.wordpress.com/2014/12/03/bottle-framework-fontes-de-estudos/)
 - [Bottle - Desenvolvendo com Bottle - Parte 1](http://pythonclub.com.br/desenvolvendo-com-bottle-parte-1.html)
