@@ -3,7 +3,7 @@ layout: post
 title:  "Bottle: começando na web com python"
 categories: python bottle
 ---
-> Se você já tem uma experiência mais avançada em desenvolvimento web e/ou python, recomendo ler o tutorial oficial do Bottle, aqui o ritmo será bem mais lento pois o foco são iniciantes!
+> Se você já tem uma experiência mais avançada em desenvolvimento web e/ou python, recomendo ler o tutorial oficial do Bottle, aqui o ritmo será bem mais lento pois o foco são os iniciantes!
 
 Trabalho com web há alguns anos, passei rapidamente por PHP e logo em seguida comecei a trabalhar com python e por consequência com Django. O início foi bem doloroso, não sei se todos tem a mesma impressão, mas acredito que python(para a web) tem uma curva de aprendizado muito grande se comparado ao PHP(que ainda é a grande porta de entrada da web), são muitas coisas a aprender para colocar um simples projeto em python no ar  enquanto em PHP tudo que se precisa fazer é "escrever um arquivinho e jogar no ftp".
 
