@@ -15,7 +15,7 @@ Lendo um pouco e conversando com amigos cheguei a conclusão de que meu problema
 * Deixar tudo que parece um pouco mais complicado pra depois;
 * Não ter um cronograma do que pretendo fazer.
 
-Tudo isso desencadeia uma procrastinação excessiva, que no final das contas, acaba com qualquer tipo de produtividade. 
+Tudo isso desencadeia uma procrastinação excessiva, que no final das contas, acaba com qualquer tipo de produtividade.
 
 *E o que poderia ser feito para melhorar isso?*
 
