@@ -1,27 +1,21 @@
 ---
 layout: default
+cover: /assets/images/about.jpg
 post_class: post-template page-template
 ---
 
-<nav class="main-nav clearfix">
-    <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
-    <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">RSS</a>
-</nav>
-
+<header class="main-header post-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
+        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">RSS</a>
+    </nav>
+</header>
 
 <main class="content" role="main">
     <article class="post">
-        <!-- <header class="post-header">
-            <a id="blog-logo" href="{{site.baseurl}}">
-                {% if site.logo %}
-                    <img src="{{site.logo}}" alt="{{ site.name }}" />
-                {% else %}
-                    <span class="blog-title">{{ site.name }}</span>
-                {%endif%} 
-            </a>
-        </header> -->
-
-        <h1 class="post-title">{{ page.title }}</h1>
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+        </header>
 
         <section class="post-content">
             {{content}}

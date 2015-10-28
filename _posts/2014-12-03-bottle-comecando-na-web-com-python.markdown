@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Bottle: começando na web com python"
+description: Tutorial básico de desenvolvimento web com python usando o framework bottle
 categories: python bottle
 ---
 > Se você já tem uma experiência mais avançada em desenvolvimento web e/ou python, recomendo ler o tutorial oficial do Bottle, aqui o ritmo será bem mais lento pois o foco são os iniciantes!

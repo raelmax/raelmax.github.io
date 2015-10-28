@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PythonBrasil[9]: Dicas de frontend para projetos django"
+description: Vídeo e Slides da minha palestra na PythonBrasil[9]
 date:   2013-11-24 13:37:14
 categories: python pythonbrasil9 palestra
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Não somos tão bons assim"
+description: Anotações pessoais sobre desenvolvimento de software
 cover: /assets/images/nao-somos-tao-bons-assim.jpg
 categories: projetos  python  c#
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Metas para 2015"
+description: Metas que tentarei alcançar em 2015
 categories: pessoal
 ---
 
