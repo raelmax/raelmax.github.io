@@ -1,14 +1,15 @@
-# Site settings
-title: Programming, Motherfucker 
 name: Rael Max
-email: contato@raelmax.com
-description: > # this means to ignore newlines until "baseurl:"
-  Software developer and fake cyclist.
-  Posts about python, javascript and random stuff.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://raelmax.github.io" # the base hostname & protocol for your site
-twitter_username: raelmax
-github_username:  raelmax
+description: Desenvolvedor de software
+meta_description: "Desenvolvimento de software."
 
-# Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://raelmax.github.io'
+google_analytics: 'UA-18745352-2'
+
+# Details for the RSS feed generator
+url:            'https://raelmax.github.io'
+author:         'Rael Max'

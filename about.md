@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sobre mim
 ---
 
-“Programming, Motherfucker” is a place that I talk about programming related things. The name is inspired in famous page [programming-motherfucker.com](http://programming-motherfucker.com).
+This is a static page. It could be an 'about page' if you'd like.
