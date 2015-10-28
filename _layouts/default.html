@@ -7,6 +7,11 @@
     <title>{{ site.name }} - {{ site.description }}</title>
     <meta name="description" content="{{ site.meta_description}}" />
 
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="{{ site.domain_name }}{{ page.url }}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:image" content="{{ site.domain_name }}{% if page.cover %}{{ page.cover }}{% else %}/assets/images/profile.jpg{% endif %}" />
+
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
