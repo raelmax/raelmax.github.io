@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Não somos tão bons assim"
+cover: /assets/images/nao-somos-tao-bons-assim.jpg
 categories: projetos  python  c#
 ---
 Há alguns meses precisei desenvolver uma aplicação para um dispositivo da motorola que roda Windows CE 5. Conversei com um amigo que já tinha experiência com esses dispositivos e ele me falou que havia uma versão do python e do tk que rodava perfeitamente, logo optei por desenvolver dessa forma. Era perfeito, trabalho com python há bastante tempo e resolveria o problema rapidamente.
