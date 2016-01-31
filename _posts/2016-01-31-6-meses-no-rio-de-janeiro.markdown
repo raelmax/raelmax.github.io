@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "6 meses no Rio de Janeiro"
-description: Comecei esse texto há 3 meses com o título "3 meses no Rio de Janeiro" e fui alterando o título de mês em mês até chegar nesse aqui, o sexto. Agora decidi começar de novo e ir até o final.
+description: "Comecei esse texto há 3 meses com o título '3 meses no Rio de Janeiro' e fui alterando o título de mês em mês até chegar nesse aqui. Agora decidi começar de novo e ir até o final."
 cover: /assets/images/6-meses-no-rio-de-janeiro-e-na-globocom.jpeg
 categories: lifestyle
 ---
