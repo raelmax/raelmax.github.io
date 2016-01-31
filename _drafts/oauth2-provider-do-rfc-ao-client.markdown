@@ -15,7 +15,7 @@ DigitalOcean, por exemplo.
 ## Que problema o oAuth resolve?
 
 O foco do oAuth2 é a autenticação de aplicações de terceiros. Em um modelo de
-autenticação comum, cliente-servidor, caso o usuário precisa-se dar acesso a
+autenticação comum, cliente-servidor, caso o usuário precise dar acesso a
 seus dados de determinada aplicação à uma aplicação de terceiros, o processo
 seria basicamente esse:
 
