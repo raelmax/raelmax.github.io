@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Feed Test 1"
+description: "Feed Teste 1 - Description"
+cover: /assets/images/6-meses-no-rio-de-janeiro-e-na-globocom.jpeg
+categories: test
+---
+
+Yay!
