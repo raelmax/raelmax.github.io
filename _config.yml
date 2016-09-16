@@ -2,7 +2,7 @@ name: Rael Max
 description: Feito é melhor que perfeito.
 meta_description: "Desenvolvedor de Software na Globo.com. Jogador profissional de peladas esporádicas e sommelier de repositórios do github."
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
