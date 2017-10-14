@@ -69,7 +69,7 @@ Caso você tenha usado a primeira abordagem você terá disponível o comando `p
 ### Ambientes virtuais temporários
 
 Com o PEX instalado podemos criar ambientes virtuais tanto temporários quanto permanentes. Para exemplificar vamos criar um ambiente virtual com a biblioteca [requests](http://docs.python-requests.org/en/master/):
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ ./pex -v requests
   urllib3 1.22pex :: Resolving distributions
   requests 2.18.4
