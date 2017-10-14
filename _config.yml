@@ -6,6 +6,7 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
+plugins: [jekyll-paginate]
 baseurl:
 domain_name: 'https://raelmax.github.io'
 google_analytics: 'UA-18745352-2'
