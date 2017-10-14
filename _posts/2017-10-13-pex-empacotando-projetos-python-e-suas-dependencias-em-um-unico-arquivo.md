@@ -6,30 +6,30 @@ categories: python
 ---
 
 Antes de começar a falar do PEX é importante conhecer um comportamento pouco explorado do interpretador do Python. Para isso vamos criar um arquivo de exemplo com o seguinte conteúdo e chamá-lo de `teste.py`:
-{% highlight python linenos %}
+{% highlight python %}
 print("Tudo ok! Hello World!")
 {% endhighlight %}
 
 O código pode ser executado com o comando `python teste.py`. Mas para o nosso exemplo tentaremos executá-lo assim:
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ python .
 {% endhighlight %}
 
 Mas receberemos um erro que diz que não existe um módulo "main" no diretório atual, o que é verdade já que nosso único o arquivo se chama `teste.py`.
-{% highlight bash linenos %}
+{% highlight bash %}
 /Users/raelmax/.pyenv/versions/2.7.13/bin/python: can't find '__main__' module in '.'
 {% endhighlight %}
 
 Nesse momento você já deve ter percebido qual é o tal comportamento pouco explorado. Se mudarmos o nome do nosso arquivo de `teste.py` para `__main__.py` ao executarmos o comando `python .` o arquivo `__main__.py` será executado, exemplo:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ mv teste.py __main__.py
 ~/Code/me/pex $ python .
 Tudo ok! Hello World!
 {% endhighlight %}
 
 Indo um pouco além podemos "zipar" esse arquivo `__main__.py` e o comportamento do interpretador não muda:
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ zip teste.zip __main__.py
   adding: __main__.py (stored 0%)
 ~/Code/me/pex $ python teste.zip
@@ -37,7 +37,7 @@ Tudo ok! Hello World!
 {% endhighlight %}
 
 Podemos também criar um diretório contendo nosso arquivo `__main__.py` e executá-lo da mesma forma:
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ mkdir teste
 ~/Code/me/pex $ mv __main__.py teste/
 ~/Code/me/pex $ python teste
@@ -55,12 +55,12 @@ A documentação do projeto é bem completa e dá mais detalhes sobre como tudo 
 ### Instalando o PEX
 
 A instalação é feita usando o pip, como qualquer outro pacote python:
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ pip install pex
 {% endhighlight %}
 
 Eu encontrei um pequeno probleminha nessa abordagem de instalação porque ela requer que você tenha um virtualenv ativo ou permissão para instalar como um pacote global. Para conseguir fugir desses dois pontos eu fiz um pequeno script que baixa, instala no `/tmp/` e cria um executável PEX usando o próprio PEX:
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ curl -L https://bit.ly/pex-standalone | bash
 {% endhighlight %}
 
@@ -91,7 +91,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 {% endhighlight %}
 
 Com esse comando o PEX executa o interpretador do python com o pacote especificado no PYTHONPATH, o que pode ser bem útil no momento do desenvolvimento. Caso o pacote que você queria instalar possua um executável você pode usar a flag `-c` para dizer para o PEX executá-lo. Vamos usar o [thumbor](http://thumbor.org) nesse exemplo:
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ ./pex thumbor -c thumbor -- --version
 Thumbor v6.3.2 (10-Apr-2017)
 {% endhighlight %}
@@ -101,7 +101,7 @@ O `--` é usado para dizer para o PEX que os próximo parâmetros serão passado
 ### Salvando ambientes PEX
 
 Apesar de ser útil durante o desenvolvimento, os ambientes temporários não são tão interessantes quando você costumar usar sempre os mesmos softwares, nesse caso é interessante persistir o seu ambiente. Para esse exemplo vamos usar o [httpie](https://httpie.org/):
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ ./pex httpie -c http -o httpie.pex
 ~/Code/me/pex $ ./httpie.pex --version
 0.9.9
@@ -135,7 +135,7 @@ O PEX é uma ótima alternativa para quem quer testar um novo pacote sem "sujar"
 
 Uma última dica é criar um diretório para abrigar todos esses executáveis e colocar no seu `PATH`, com isso você não precisará chamar o executável com o `PATH` completo e poderá fazer isso de dentro do seu projeto mesmo. Para isso eu criei um diretório `~/.pybin` e coloquei lá o arquivo `pex` gerado pelo meu script e sempre que crio um executável novo também mando pra lá. E adicionei esse diretório ao meu `.bash_profile`:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/Code/me/pex $ echo 'export PATH="~/.pybin:$PATH"' > ~/.bash_profile
 {% endhighlight %}
 
