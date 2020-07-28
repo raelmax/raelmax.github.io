@@ -5,7 +5,7 @@ date:   2013-11-24 13:37:14
 categories: pessoal
 ---
 
-Olá, niggas.
+Olá, amigos. 
 
 Como é de praxe, precisava escrever alguma coisa aqui para não deixar aquele post *default*, né. O que também serve para dar uma enganada e até faz você pensar que isso aqui será atualizado com frequência. E talvez seja.
 
