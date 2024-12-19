@@ -1,0 +1,15 @@
+{
+    "module": {
+        "dynamic-poll_and_send": {
+            "sftp_credentials_vault_code": "test-vault",
+            "sftp_host": "blablabla",
+            "sftp_password_placeholder": "blablabla",
+            "sftp_poll_path": "blablabla",
+            "sftp_port": 22,
+            "sftp_send_path": "blablabla",
+            "sftp_username_placeholder": "blablabla",
+            "source": "github.com/loadsmart/kraken-integrations/integrations/poll_and_send",
+            "source_partner_code": "loadsmart"
+        }
+    }
+}
